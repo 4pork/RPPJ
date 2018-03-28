@@ -1,7 +1,9 @@
+package ru.mirea;
+import java.util.Date;
 public class Task {
     private int id;
 
-    private String time;
+    private Date date;
 
     private String city;
 
@@ -15,12 +17,12 @@ public class Task {
         this.id = id;
     }
 
-    public String getTime() {
-        return time;
+    public Date getDate() {
+        return date;
     }
 
-    public void setTime(String time) {
-        this.time = time;
+    public void setDate(Date date){
+        this.date = date;
     }
 
     public String getCity() {
@@ -43,7 +45,7 @@ public class Task {
     public String toString() {
         return "Task{" +
                 "id=" + id +
-                ", time='" + time + '\'' +
+                ", time='" + date + '\'' +
                 ", city='" + city + '\'' +
                 ", weather='" + weather + '\'' +
                 '}';

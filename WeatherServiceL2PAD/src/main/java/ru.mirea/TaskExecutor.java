@@ -1,5 +1,5 @@
 package ru.mirea;
 
-public class TaskExecutor implements Runnable {
+public class TaskExecutor{
 
 }
